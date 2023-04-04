@@ -1,0 +1,16 @@
+.aboutPage {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+h2 {
+    bold: 700;
+    color: wheat;
+    margin: 25px 0;
+}
+
+.aboutPage_text {
+    bold: 400;
+    color: wheat;
+    margin: 2rem 0;
+}
