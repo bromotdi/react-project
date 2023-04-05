@@ -13,7 +13,9 @@
     "test": "vitest",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint \"src/**/*.{js,jsx,tsx}\" --fix",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
