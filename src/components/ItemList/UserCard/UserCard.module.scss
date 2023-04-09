@@ -1,0 +1,36 @@
+.user {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: #c4cdce;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__info {
+    padding: 1rem 1.5rem;
+  }
+
+  &__name {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #13acc9;
+  }
+
+  &__type {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #124d53;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #124d53;
+  }
+}
