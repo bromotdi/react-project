@@ -1,0 +1,25 @@
+.person {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: #c4cdce;
+  cursor: pointer;
+
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__info {
+    padding: 1rem 1.5rem;
+  }
+
+  &__name {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #13acc9;
+  }
+}
