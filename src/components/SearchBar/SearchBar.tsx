@@ -4,7 +4,6 @@ import { searchByName } from '../../state/AppReducer';
 import './SearchBar.css';
 import { ISearchBarProps, VoidFunction, Numbers } from '../../types';
 import { ENTER_KEY_CODES, EMPTY_STRING, LOCAL_STORAGE_KEYS } from '../../constants';
-
 const SearchBar = (props: ISearchBarProps): JSX.Element => {
   const searchInputRef = useRef<string>(
     localStorage.getItem(LOCAL_STORAGE_KEYS.searchValue) || EMPTY_STRING
