@@ -1,0 +1,28 @@
+.main-page__card-item {
+  width: 270px;
+  height: 320px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #c5c5c5;
+}
+
+.character-card__image {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.main-page__card-item > p {
+  margin: 5px;
+}
+
+.character-card__item-name {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.character-card__name {
+  font-weight: 600;
+  text-align: center;
+}
